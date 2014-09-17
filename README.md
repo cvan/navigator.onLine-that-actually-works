@@ -18,7 +18,7 @@ Source: [HTML Standard](https://html.spec.whatwg.org/#browser-state)
 
 ## What's the problem, mate?
 
-`navigator.onLine` [always incorrectly reports `true` in Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=654579) and doesn't fire events [bug 756364](https://bugzilla.mozilla.org/show_bug.cgi?id=756364).
+`navigator.onLine` [always incorrectly reports `true` in Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=654579) and doesn't fire events [bug 756364](https://bugzilla.mozilla.org/show_bug.cgi?id=756364). And there are a [plethora of bugs with Chrome's implementation](http://crbug.com?q=navigator.online) too.
 
 
 ## What can we do about it, mate?
