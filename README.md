@@ -42,6 +42,7 @@ I want to thank these fine individuals for their assistance in extending [my ori
 * [@diox](https://github.com/diox)
 * [@ngokevin](https://github.com/ngokevin)
 
+
 ## Licence
 
-The content of this project itself is licensed under the [Creative Commons Attribution 3.0 licence](http://creativecommons.org/licenses/by/3.0/us/deed), and the underlying source code used to format and display that content is licensed under the [MIT license](LICENCE).
+The content of this project itself is licenced under the [Creative Commons Attribution 3.0 licence](http://creativecommons.org/licences/by/3.0/us/deed), and the underlying source code used to format and display that content is licenced under the [MIT licence](LICENCE).
