@@ -37,10 +37,10 @@ A big thanks to [@remy](https://github.com/remy) for his [XHR-polling polyfill](
 
 I want to thank these fine individuals for their assistance in extending [my original concept](ondemand-promises.js) and building out a full-blown, resilient offline-checking system in the [Firefox Marketplace](https://github.com/mozilla/fireplace):
 
-* [https://github.com/remy](@muffinresearch)
-* [https://github.com/spasovski](@spasovski)
-* [https://github.com/diox](@diox)
-* [https://github.com/ngokevin](@ngokevin)
+* [@muffinresearch](https://github.com/remy)
+* [@spasovski](https://github.com/spasovski)
+* [@diox](https://github.com/diox)
+* [@ngokevin](https://github.com/ngokevin)
 
 ## Licence
 
