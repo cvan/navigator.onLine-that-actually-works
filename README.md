@@ -33,8 +33,14 @@ We have a few options:
 
 ## Credits
 
-* Remy Sharp for his [XHR-polling polyfill](https://github.com/remy/polyfills/blob/master/offline-events.js)
+A big thanks to [@remy](https://github.com/remy) for his [XHR-polling polyfill](https://github.com/remy/polyfills/blob/master/offline-events.js).
 
+I want to thank these fine individuals for their assistance in extending [my original concept](ondemand-promises.js) and building out a full-blown, resilient offline-checking system in the [Firefox Marketplace](https://github.com/mozilla/fireplace):
+
+* [https://github.com/remy](@muffinresearch)
+* [https://github.com/spasovski](@spasovski)
+* [https://github.com/diox](@diox)
+* [https://github.com/ngokevin](@ngokevin)
 
 ## Licence
 
