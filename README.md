@@ -27,8 +27,10 @@ We have a few options:
 
 * check for connectivity only when a user action that requires connectivity, polling only until user regains connectivity
 * continually make a simple request in the background, fixing the value of `navigator.onLine` and firing events ([@remy](https://github.com/remy)'s example uses synchronous XHR polling every 5 minutes)
-* change `navigator.onLine` to return a `Promise` after checking connectivity
+* change `navigator.onLine` to return a `Promise` that eventually resolves when user regains connectivity
+* XHR long-polling beacon
 * checking when a [socket](https://developer.mozilla.org/en-US/docs/Web/API/TCPSocket) is closed, which unfortunately works on only Firefox OS for privileged, packaged web apps ([raw sockets are currently being standardised](http://www.w3.org/TR/raw-sockets/))
+* checking when a WebSocket is closed
 
 
 ## Credits
