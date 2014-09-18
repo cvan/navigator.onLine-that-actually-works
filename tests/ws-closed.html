@@ -1,0 +1,40 @@
+<!-- credits: https://github.com/remy/polyfills/blob/master/offline-events.js -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WebSocket closed socket test</title>
+    <style>
+      * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+      body { font-family: sans-serif; margin: 15% auto; padding: 1em; width: 600px; }
+      p { margin: 1.5em 0; }
+      #status { color: #fff; font-size: 24px; font-weight: bold; margin-top: 0; padding: 1em; text-align: center; }
+      .online { background: #2c7; }
+      .offline { background: #e43; }
+      @media screen and (max-width: 500px) {
+        body { margin: 0 auto; width: 100%; }
+      }
+    </style>
+  </head>
+  <body>
+    <p class="online" id="status">ONLINE</p>
+    <p><strong>Directions:</strong> disconnect the Internet connection from your machine and watch the status switch from online to offline (and back again if you want to see the online event fire).</p>
+    <script src="../ws-closed.js"></script>
+    <script>
+      (function () {
+        var status = document.getElementById('status');
+        status.className = navigator.onLine ? 'online' : 'offline';
+        window.addEventListener('online', function () {
+          status.className = 'online';
+          status.innerHTML = 'ONLINE';
+        }, false);
+
+        window.addEventListener('offline', function () {
+          status.className = 'offline';
+          status.innerHTML = 'OFFLINE';
+        }, false);
+      })();
+    </script>
+  </body>
+</html>
